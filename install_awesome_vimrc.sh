@@ -15,4 +15,10 @@ source ~/.vim_runtime/my_configs.vim
 catch
 endtry' > ~/.vimrc
 
+echo "Installing YouCompleteMe"
+mkdir YouCompleteMe
+git clone https://github.com/Valloric/YouCompleteMe.git my_plugins/YouCompleteMe
+cd my_configs/YouCompleteMe
+git submodule update --init --recursive
+python install.py
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
