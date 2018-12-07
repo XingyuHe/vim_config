@@ -29,4 +29,11 @@ echo "========================================="
 # git clone https://github.com/queezythegreat/vim-YouCompleteMe my_plugins/YouCompleteMe/
 
 
+echo "Installing YouCompleteMe"
+mkdir YouCompleteMe
+git clone https://github.com/Valloric/YouCompleteMe.git my_plugins/YouCompleteMe
+cd my_configs/YouCompleteMe
+git submodule update --init --recursive
+python install.py
+>>>>>>> 19187d9b72f779385fffb1d521867abfa9077cc7
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
