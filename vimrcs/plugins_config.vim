@@ -3,7 +3,21 @@
 "       This requries that you install https://github.com/amix/vimrc !
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" My own stuff
+"""""""""""""""""""""""""""""
+nnoremap <buffer> <C-M> :exec '!python' shellescape(@%,1)<cr>
+nnoremap <buffer> <C-P> :exec '!cat' shellescape(@%,1)<cr>
 
+" Map every thing to option + movement
+inoremap ∆ <Esc> j
+inoremap ˙ <Esc> h
+inoremap ˚ <Esc> k
+inoremap ¬ <Esc> l
+inoremap ø <Esc> o
+inoremap Ø <Esc> O
+
+let g:go_version_warning = 0
+inoremap jj <Esc>
 
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
