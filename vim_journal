@@ -1,0 +1,12 @@
+This is my vim journal, documenting what I did in Vim in order to make it better. The purpose of this journal is to replicate the configurations of this vim if necessary in the future
+
+1. Download the awesome vim configuration from github/Xingyuhe/vim_config
+2. Apply YouCompleteMe.
+    a. In general, just put the github repository into my_plugins.
+    b. Specifically on YCM, you need to run 'python install.py' before any update.
+3. Apply superTab.
+    a. I installed superTab via 'supertab.vmb' file. Simply open file and run the command ':source %'.
+4. Remap Keys:
+    a. Use the command '*noremap' where * can be 'v','i','n'.
+5. Copy into "+:
+    a. First need to make sure that the version of vim support copy.

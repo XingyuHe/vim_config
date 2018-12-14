@@ -6,7 +6,7 @@
 " My own stuff
 """""""""""""""""""""""""""""
 nnoremap <buffer> <C-M> :exec '!python' shellescape(@%,1)<cr>
-nnoremap <buffer> <C-P> :exec '!cat' shellescape(@%,1)<cr>
+vnoremap <C-c> "+y
 
 " Map every thing to option + movement
 inoremap ∆ <Esc> j
