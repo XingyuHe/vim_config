@@ -19,6 +19,9 @@ inoremap Ø <Esc> O
 let g:go_version_warning = 0
 inoremap jj <Esc>
 
+" Load Global YCM directory
+let g:ycm_global_ycm_extra_conf = '~/.vim_runtime/my_plugins/.ycm_extra_conf.py'
+
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
 """"""""""""""""""""""""""""""
