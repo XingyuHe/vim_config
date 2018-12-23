@@ -15,11 +15,17 @@ inoremap ˚ <Esc> k
 inoremap ¬ <Esc> l
 inoremap ø <Esc> o
 inoremap Ø <Esc> O
-inoremap ¨ <Esc> u
 set showcmd
+map \ <leader>
 
 let g:go_version_warning = 0
 inoremap jj <Esc>
+
+" Load Global YCM directory
+let g:ycm_global_ycm_extra_conf = '~/.vim_runtime/my_plugins/.ycm_extra_conf.py'
+
+" Always open a new tab in NERDTree
+let NERDTreeMapOpenInTab='\r'
 
 """"""""""""""""""""""""""""""
 " => Load pathogen paths

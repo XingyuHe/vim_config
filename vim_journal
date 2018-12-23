@@ -10,3 +10,10 @@ This is my vim journal, documenting what I did in Vim in order to make it better
     a. Use the command '*noremap' where * can be 'v','i','n'.
 5. Copy into "+:
     a. First need to make sure that the version of vim support copy.
+6. Set up global ycm_config file:
+    a. First create a .ycm_extra_confi.py.
+    b. Then include the option 'let g:ycm_confirm_extra_conf = "path/to/ycm_configfile"'
+7. Look up documentation for a built-in function for python library:
+    a. Note that virtulenv needs to turned in the terminal for jedi or YCM to recognize the library in a virtulenv. 
+    b. <K> means capital K.
+    c. YCM and jedi have the same functionality.
