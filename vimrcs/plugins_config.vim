@@ -15,6 +15,8 @@ inoremap ˚ <Esc> k
 inoremap ¬ <Esc> l
 inoremap ø <Esc> o
 inoremap Ø <Esc> O
+inoremap ¨ <Esc> u
+set showcmd
 
 let g:go_version_warning = 0
 inoremap jj <Esc>
