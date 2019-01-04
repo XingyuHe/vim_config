@@ -5,7 +5,7 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " My own stuff
 """""""""""""""""""""""""""""
-nnoremap <buffer> <C-M> :exec '!python' shellescape(@%,1)<cr>
+nnoremap <buffer> <C-K> :exec '!python' shellescape(@%,1)<cr>
 vnoremap <C-c> "+y
 
 " Map every thing to option + movement
@@ -23,9 +23,6 @@ inoremap jj <Esc>
 
 " Load Global YCM directory
 let g:ycm_global_ycm_extra_conf = '~/.vim_runtime/my_plugins/.ycm_extra_conf.py'
-
-" Always open a new tab in NERDTree
-let NERDTreeMapOpenInTab='\r'
 
 """"""""""""""""""""""""""""""
 " => Load pathogen paths
